@@ -33,6 +33,9 @@ Create Table after Creating the Model
     
     rake db:migrate
      
+Creating Child Model(Parent-->Post) 
+
+    rails g model Comment username:string body:text post:references
 
 ## [Go to Rails to Learn More](https://guides.rubyonrails.org/getting_started.html)
 
