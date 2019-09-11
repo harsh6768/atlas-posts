@@ -42,3 +42,4 @@ Creating Child Model(Parent-->Post)
 
 ## [Go to Rails to Learn More](https://guides.rubyonrails.org/getting_started.html)
 
+## [Go to ERB to Learn More](https://www.stuartellis.name/articles/erb/)
