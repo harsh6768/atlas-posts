@@ -29,7 +29,7 @@ Then run the below command
 
      rake routes ---> creating all the apis related to the Controller and map to it 
     
-Create Table of the Model
+Create Table after Creating the Model
     
     rake db:migrate
      
