@@ -20,7 +20,7 @@ We can create all the routes and map to it with controller using below command b
 
  resources:routes_name 
  
-ex. resources:posts
+     resources:posts
 
 
 Then run the below command
