@@ -28,4 +28,7 @@ We can create all the routes and map to it with controller using below command b
 Then run the below command
 
      rake routes ---> creating all the apis related to the Controller and map to it 
+     
+
+## [Go to Rails to Learn More](https://guides.rubyonrails.org/getting_started.html)
 
