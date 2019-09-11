@@ -20,7 +20,8 @@ Useful Commands for developing app using ruby-on-rails
      ex.  rails g model Post title:string body:text
 
 #### Rails provides a resources method which can be used to declare a standard REST resource:   
-                   We can create all the routes and map to it with controller using below command but for that we need to add the code into the routes.rb file
+
+We can create all the routes and map to it with controller using below command but for that we need to add the code into the routes.rb file
 
  resources:routes_name 
  
