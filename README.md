@@ -9,4 +9,10 @@
 Useful Commands for developing app using ruby-on-rails
 
      rails new app_name   --->creating new app 
+     
+     rails s || rails server --->start the server 
+     
+     rails g controller controller_name(name should be plural) --->create controller
+     
+     rails g model model_name(name should be singular) --->create model
 
