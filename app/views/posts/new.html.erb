@@ -1,4 +1,9 @@
 <h1>Add Post</h1>
+<!-- 
+    The posts_path helper tells Rails to point the form to the URI Pattern associated with the articles prefix; 
+    and the form will (by default) send a POST request to that route.
+     This is associated with the create action of the current controller, the PostsController.
+ -->
 <%= form_for :post, url: posts_path do |f|%>
    
    <!-- for showing the error if any -->
@@ -7,6 +12,7 @@
             <div class="alert alert-danger"> <%= msg %> </div>
         <% end %>
    <% end %>
+
   <p>
       <%= f.label :title %><br>
       <%= f.text_field(:title,{:class=> 'form-control'}) %>
